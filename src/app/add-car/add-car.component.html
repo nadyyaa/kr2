@@ -1,0 +1,6 @@
+<form class="flex flex-col w-fit">
+    <input [(ngModel)]="carForm.name" type="text" class="p-2 bg-zinc-800 text-gray-300 outline-0 rounded-t-xl" placeholder="Марка">
+    <input [(ngModel)]="carForm.model" type="text" class="p-2 bg-zinc-800 text-gray-300 outline-0" placeholder="Модель">
+    <input [(ngModel)]="carForm.price" type="number" class="p-2 bg-zinc-800 text-gray-300 outline-0 rounded-b-xl" placeholder="Цена">
+    <button (click)="Submit()" class="mt-3 bg-orange-600 py-1.5 px-3 rounded-lg text-lg text-white duration-500 active:scale-95 hover:shadow-lg hover:shadow-orange-500/50 hover:bg-orange-700">Добавить машинку</button>
+</form>
